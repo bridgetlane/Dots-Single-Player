@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dots</title>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/main.js"></script>
+
+<style>
+body
+{
+    color: #777;
+    font-family: Arial;
+}
+#readme
+{
+    margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+<center><div id="game"></div></center>
+<div id="readme">
+<h2>Dots (Single Player Version)</h2>
+<ul>
+
+<li><strong>POLISHED CHANGES:</strong>
+This version of Dots is single player. The player plays against the computer. Improvements/polish include the AI computer player, restart/info buttons, score calculation, and ability to choose your colors.
+</li>
+<br>
+<li><strong>High Concept:</strong>
+This version of Dots is single player. Connect the dots while keeping your opponents from doing so.
+</li>
+<br>
+<li><strong>Player Experience Goals:</strong>
+The player experience should be fun and interactive. This time, I made the game single player, adding another way to play.
+</li>
+<br>
+<li><strong>Genre:</strong>
+Casual games.
+</li>
+<br>
+<li><strong>Game play:</strong>
+Pick your colors. The object of the game is to have the most completed rows/cols of your color at the end of the game.
+<br>Select or deselect any circle on the board for your turn. You CANNOT pass your turn.
+<br> If all 4 circles in a row or column are selected, the whole row/column will become locked (selected permanently). 
+<br>The COLOR of the last circle selected in a row/column will decide who that row/column goes to. When the last circle is selected, the entire row/col will become the color of that circle. This row/col is now UNMOVEABLE.
+<br>At the end of the game, the player with the most completed rows/cols of their color wins.
+<br><br>NOTE: Order matters. If you win a column, and a row is won, your column will be BROKEN by the row!
+<br>System dynamics: The circles are unchangeable upon full row/column selection.
+<br>Core mechanic: You can  select and deselect circles.
+</li>
+<br>
+<li><strong>Prototype goal:</strong>
+This prototype explores strategy mixed with some unpredictability. This prototype also explores making a digital game that is multi-player focused, minimizing technology and maximizing player-to-player interaction. 
+</li>
+<br>
+<li><strong>Features:</strong>
+My game is unique because a row or column you win can easily be lost.
+</li>
+<br>
+<li><strong>Setting/Premise:</strong>
+None.
+</li>
+<br>
+<li><strong>Story:</strong>
+None.
+</li>
+<br>
+<li><strong>Target Audience:</strong>
+Casual gamers.
+</li>
+<br>
+<li><strong>Play time:</strong>
+3 minutes.
+</li>
+<br>
+<li><strong>Strategies:</strong>
+Keep an eye on your main colors and which of them are selected.
+</li>
+<br>
+<li><strong>Prototype Assets:</strong>
+Assets made by me.
+</li>
+<br>
+<li><strong>Prototype Closest Other Game:</strong>
+I did not model this game or take the game framework from any existing game or Phaser example.
+</li>
+
+</ul>
+</div>
+</body>
+</html>
